@@ -12,6 +12,10 @@ on:
   release:
     types: [published]
 
+on: push
+permissions:
+  contents: write
+
 permissions:
   contents: read
 
